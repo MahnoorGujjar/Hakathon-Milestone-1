@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+
+}
+.main{
+    border: 2px solid black;
+    width: 900px;
+    height: 900px;
+}
+.box1{
+    width: 300px;
+    height: 900px;
+    border: 2px solid black;
+    color: rgb(226, 214, 214);
+    background-color: rgb(3, 3, 39);
+}
+.profile{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+h3 {
+     border-bottom: 2px solid white;
+     width: 250px;
+     padding-bottom: 15px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+ul li{
+    position: relative;
+    left: 30px;
+    margin-top: 5px;
+}
+.info{
+    margin-top: 30px;
+
+    
+}
+
+
+h2,h4{
+    margin-top: 25px;
+    text-align: center;
+    
+}
+hr{
+    color: white;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.contact {
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+p{
+    border-left:2px solid white ;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.box2{
+    overflow: hidden;
+    width: 650px;
+    height: 900px;
+    position: relative;
+    top: -900px;
+    left: 250px;
+
+}
+.details{
+    text-align: center;
+}
+.myinfo{
+    width: 650px;
+    height: 150px;
+    position: relative;
+    left:50px;
+    background-color:rgb(4, 4, 56) ;
+    color: white; display: flex;
+
+    
+}
+#name{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#job{
+    position: relative;
+    top: 60px;
+    right: 310px;
+}
+.sum{
+    margin-top: 50px;
+}
+#sum-hr{
+    width: 550px;
+    border: 1px solid black;
+}
+.sum-info{
+    margin-left: 50px;
+    text-align: start;
+    margin-top: 30px;
+}
+#references{
+    margin-top: -10px;
+    margin-bottom: -20px;
+}
+#btn{
+    height: 50px;
+    width: 140px;
+    margin-top: 30px;
+    font-size: 14px;
+    margin-left: 30px;
+    background-color:rgb(4, 4, 56) ;
+    color: white;
+}
+#btn:hover{
+    background-color: white;
+    border: 5px solid black;
+    background-color: rgb(34, 113, 177);
+    border-radius: 20px;
+}
+/* #downloadbtn{
+     height: 50px;
+    width: 140px;
+    font-size: 14px;
+    margin-left: 30px;
+    position: relative;
+    top: -7px;
+    background-color: rgb(4, 4, 56);
+    color: white;
+    text-decoration: none;
+}
+#downloadbtn:hover{
+    background-color: white;
+    border: 5px solid black;
+    background-color: rgb(34, 113, 177);
+    border-radius: 20px;
+} */
+
+
